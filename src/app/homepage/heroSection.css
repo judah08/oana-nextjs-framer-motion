@@ -1,0 +1,12 @@
+@keyframes rotateClockwise {
+  0% {
+    transform: translate(40%, 40%) rotate(0deg);
+  }
+  100% {
+    transform: translate(40%, 40%) rotate(-360deg);
+  }
+}
+
+.rotatingElement {
+  animation: rotateClockwise 20s linear infinite; /* Adjust the duration as needed */
+}
